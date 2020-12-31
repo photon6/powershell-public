@@ -1,27 +1,27 @@
-#################################################################################
-# 										                                        #
-# This powershell script will check the values of the input file against the    #
-# JSON response from Okta /users API request for any match.                     #
-# 										                                        #
-# Author: rkhanna@propensic.com		                                            #
-# Date: October 9, 2020					                                        #
-# 										                                        #
-# Copyright (c) 2020 Propensic Solutions, LLC.                                  #
-# 										                                        #
-# This program is free software: you can redistribute it and/or modify it under #
-# the terms of the GNU General Public License as published by the Free Software #
-# Foundation, either version 3 of the License, or (at your option) any later    #
-# version.                                                                      #
-# 										                                        #
-# This program is distributed in the hope that it will be useful, but WITHOUT   #
-# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS #
-# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more        #
-# details.                                                                      #
-# 										                                        #
-# You should have received a copy of the GNU General Public License along with  #
-# this program.  If not, see <https://www.gnu.org/licenses/>.                   #
-# 										                                        #
-#################################################################################
+################################################################################
+# 										
+# This powershell script will check the values of the input file against the    
+# JSON response from Okta /users API request for any match.                     
+# 										
+# Author: rkhanna@propensic.com		                                        
+# Date: October 9, 2020					                        
+# 										
+# Copyright (c) 2020 Propensic Solutions, LLC.                                  
+# 										
+# This program is free software: you can redistribute it and/or modify it under 
+# the terms of the GNU General Public License as published by the Free Software 
+# Foundation, either version 3 of the License, or (at your option) any later    
+# version.                                                                      
+# 										
+# This program is distributed in the hope that it will be useful, but WITHOUT   
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more        
+# details.                                                                      
+# 										
+# You should have received a copy of the GNU General Public License along with  
+# this program.  If not, see <https://www.gnu.org/licenses/>.                   
+# 										
+################################################################################
 
 $fileName = 'C:\Temp\file_of_usernames.csv' # set this to match your file with username or userloginname value
 $oktaApiToken = '00fmRsWutOgRf0m2VFUonhwjSlnf3jOCULRoDLJmSQ' # set this to your Okta API bearer token
